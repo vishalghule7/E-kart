@@ -1,11 +1,12 @@
-import HeroSecImg from '../../../public/herosection.png'
+import React from 'react';
+import Slider from './Slider';
+
 const HeroSection = () => {
   return (
-    <div>
-        <img className='h-40 sm:h-full' src={HeroSecImg} alt="img" />
+    <div className="hero-section w-full">
+      <Slider />
     </div>
-
-  )
-}
+  );
+};
 
 export default HeroSection;

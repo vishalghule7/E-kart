@@ -4,6 +4,7 @@ import UserDetail from "../../components/admin/UserDetail";
 import OrderDetail from "../../components/admin/OrderDetail";
 import { useContext } from "react";
 import myContext from "../../context/myContext";
+import Layout from "../../components/layout/Layout";
 
 const AdminDashboard = () => {
     const user = JSON.parse(localStorage.getItem('users'));
@@ -12,7 +13,7 @@ const AdminDashboard = () => {
     const {getAllProduct} = context;
 
     return (
-        <div>
+        <Layout>
             {/* Top */}
             <div className="top mb-5 px-5 mt-5">
                 <div className=" bg-pink-50 py-5 border border-pink-100 rounded-lg">
@@ -152,7 +153,7 @@ const AdminDashboard = () => {
                     
                 </div>
             </div>
-        </div>
+        </Layout>
     );
 }
 

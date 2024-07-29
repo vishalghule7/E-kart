@@ -5,8 +5,7 @@ import HomePageProductCard from '../../components/homePageProductCart/HomePagePr
 import Layout from '../../components/layout/Layout'
 import Testimonial from '../../components/testimonial/Testimonial'
 import Track from '../../components/track/Track'
-import Loader from '../../components/laoder/Loader'
-
+import TopCompany from '../../components/topcompanies/TopCompany'
 const HomePage = () => {
   return (
     <Layout>
@@ -15,7 +14,7 @@ const HomePage = () => {
         <HomePageProductCard/>
         <Track/>
         <Testimonial/>
-        {/* <Loader/> */}
+        <TopCompany/>
     </Layout>
   )
 }
