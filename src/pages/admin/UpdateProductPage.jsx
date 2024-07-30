@@ -105,17 +105,17 @@ useEffect(() => {
   return (
       <div>
           <div className='flex justify-center items-center h-screen'>
-              {/* Login Form  */}
+              
               <div className="login_Form bg-pink-50 px-8 py-6 border border-pink-100 rounded-xl shadow-md">
 
-                  {/* Top Heading  */}
+                  
                   <div className="mb-5">
                       <h2 className='text-center text-2xl font-bold text-pink-500 '>
                           Update Product
                       </h2>
                   </div>
 
-                  {/* Input One  */}
+                  
                   <div className="mb-3">
                       <input
                           type="text"
@@ -132,7 +132,7 @@ useEffect(() => {
                       />
                   </div>
 
-                  {/* Input Two  */}
+                  
                   <div className="mb-3">
                       <input
                           type="number"
@@ -149,7 +149,7 @@ useEffect(() => {
                       />
                   </div>
 
-                  {/* Input Three  */}
+                  
                   <div className="mb-3">
                       <input
                           type="text"
@@ -166,7 +166,7 @@ useEffect(() => {
                       />
                   </div>
 
-                  {/* Input Four  */}
+                  
                   <div className="mb-3">
                       <select
                           value={product.category}
@@ -187,7 +187,7 @@ useEffect(() => {
                       </select>
                   </div>
 
-                  {/* Input Five  */}
+                  
                   <div className="mb-3">
                       <textarea
                           value={product.description}
@@ -201,7 +201,7 @@ useEffect(() => {
                       </textarea>
                   </div>
 
-                  {/* Update Product Button  */}
+                  
                   <div className="mb-3">
                       <button
                           type='button'

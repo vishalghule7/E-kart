@@ -45,7 +45,7 @@ const Login = () => {
                     toast.success("Login Successfully");
                     setLoading(false);
                     if(user.role === "user") {
-                        navigate('/user-dashboard');
+                        navigate('/');
                     }else{
                         navigate('/admin-dashboard');
                     }
@@ -65,17 +65,17 @@ const Login = () => {
     return (
         <div className='flex justify-center items-center h-screen'>
             {loading && <Loader/>}
-            {/* Login Form  */}
+            
             <div className="login_Form bg-pink-50 px-1 lg:px-8 py-6 border border-pink-100 rounded-xl shadow-md">
 
-                {/* Top Heading  */}
+                
                 <div className="mb-5">
                     <h2 className='text-center text-2xl font-bold text-pink-500 '>
                         Login
                     </h2>
                 </div>
 
-                {/* Input Two  */}
+                
                 <div className="mb-3">
                     <input
                         type="email"
@@ -91,7 +91,7 @@ const Login = () => {
                     />
                 </div>
 
-                {/* Input Three  */}
+                
                 <div className="mb-5">
                     <input
                         type="password"
@@ -107,7 +107,7 @@ const Login = () => {
                     />
                 </div>
 
-                {/* Signup Button  */}
+                
                 <div className="mb-5">
                     <button
                         type='button'

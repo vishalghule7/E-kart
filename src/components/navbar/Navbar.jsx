@@ -50,7 +50,6 @@ const Navbar = () => {
             </li>}
             
 
-            {/* Cart */}
             <li>
                 <Link to={'/cart'}>
                     Cart<ShoppingCartIcon sx={{ height: '1.2rem' }} /> ({cartItems.length})
@@ -60,9 +59,7 @@ const Navbar = () => {
     )
     return (
         <nav className="bg-pink-600 z-20 sticky top-0">
-            {/* main  */}
             <div className="lg:flex lg:justify-between items-center py-3 lg:px-3 ">
-                {/* left  */}
                 <div className="left py-3 lg:py-0">
                     <Link to={'/'}>
                     <div className="flex items-center justify-center">
@@ -76,12 +73,10 @@ const Navbar = () => {
                     </Link>
                 </div>
 
-                {/* right  */}
                 <div className="right flex justify-center mb-4 lg:mb-0">
                     {navList}
                 </div>
 
-                {/* Search Bar  */}
                 <SearchBar />
             </div>
         </nav>

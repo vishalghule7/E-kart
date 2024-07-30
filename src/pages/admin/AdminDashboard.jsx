@@ -14,7 +14,7 @@ const AdminDashboard = () => {
 
     return (
         <Layout>
-            {/* Top */}
+            
             <div className="top mb-5 px-5 mt-5">
                 <div className=" bg-pink-50 py-5 border border-pink-100 rounded-lg">
                     <h1 className=" text-center text-2xl font-bold text-pink-500">Admin Dashboard</h1>
@@ -22,15 +22,15 @@ const AdminDashboard = () => {
             </div>
 
             <div className="px-5">
-                {/* Mid  */}
+                
                 <div className="mid mb-5">
-                    {/* main  */}
+                    
                     <div className=" bg-pink-50 py-5 rounded-xl border border-pink-100">
-                        {/* image  */}
+                        
                         <div className="flex justify-center">
                             <img className="w-24 h-24 rounded-full" src="https://th.bing.com/th/id/OIP._47uoYHK51gMlShKL19DeAHaHa?rs=1&pid=ImgDetMain" alt="" />
                         </div>
-                        {/* text  */}
+                        
                         <div className="">
                             <h1 className=" text-center text-lg text-pink-500">
                                 <span className=" font-bold">Name :</span> {user?.name}
@@ -45,11 +45,11 @@ const AdminDashboard = () => {
                     </div>
                 </div>
 
-                {/* Bottom */}
+                
                 <div className="">
                     <Tabs>
                     <TabList className="flex flex-wrap -m-4 text-center justify-center">
-                        {/* Total Products */}
+                        
                         <Tab className="p-4 md:w-1/3 sm:w-1/2 w-full cursor-pointer">
                             <div className=" border bg-pink-50 hover:bg-pink-100 border-pink-100 px-4 py-3 rounded-xl" >
                                 <div className="text-pink-500 w-12 h-12 mb-3 inline-block" >
@@ -80,7 +80,7 @@ const AdminDashboard = () => {
                             </div>
                         </Tab>
 
-                        {/* Total Order  */}
+                        
                         <Tab className="p-4 md:w-1/4 sm:w-1/2 w-full cursor-pointer">
                             <div className=" border bg-pink-50 hover:bg-pink-100 border-pink-100 px-4 py-3 rounded-xl" >
                                 <div className="text-pink-500 w-12 h-12 mb-3 inline-block" >
@@ -109,7 +109,7 @@ const AdminDashboard = () => {
                             </div>
                         </Tab>
 
-                        {/* Total User  */}
+                        
                         <Tab className="p-4 md:w-1/3 sm:w-1/2 w-full cursor-pointer">
                             <div className=" border bg-pink-50 hover:bg-pink-100 border-pink-100 px-4 py-3 rounded-xl" >
                                 <div className="text-pink-500 w-12 h-12 mb-3 inline-block" >

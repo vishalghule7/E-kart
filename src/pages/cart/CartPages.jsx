@@ -148,7 +148,7 @@ const CartPage = () => {
                                     <h1>Not Found</h1>}
                             </ul>
                         </section>
-                        {/* Order summary */}
+                        
 
                         
                         <section

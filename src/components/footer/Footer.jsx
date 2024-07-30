@@ -98,7 +98,7 @@ export default function App() {
               >Laravel</a>
             </p>
           </div>
-          {/* <!-- Useful links section --> */}
+
           <div className="">
             <h6
               className="mb-4 flex justify-center font-semibold uppercase md:justify-center">
@@ -121,7 +121,7 @@ export default function App() {
               >Help</a>
             </p>
           </div>
-          {/* <!-- Contact section --> */}
+
           <div>
             <h6
               className="mb-4 flex justify-center font-semibold uppercase md:justify-center">
@@ -183,7 +183,6 @@ export default function App() {
         </div>
       </div>
 
-      {/* <!--Copyright section--> */}
       <div className="bg-neutral-200 cursor-pointer p-6 text-center dark:bg-neutral-700">
         <span>© 2023 Copyright:</span>
         <a
