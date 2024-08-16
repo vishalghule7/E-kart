@@ -1,5 +1,5 @@
 ## Technologies used
-React js, Firebase, tailwind, redux 
+React js, Firebase, tailwind, redux , material ui
 
 
 ## Installation
